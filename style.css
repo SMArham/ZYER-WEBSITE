@@ -19,9 +19,9 @@
 }
 
 #pic1 {
-  width: 1415px;
-  height: 600px;
-  margin: 0px 10px 10px 10px;
+  width: 98%;
+  /* height: 1; */
+  margin: 0px 0px 0px 10px;
   border-radius: 20px;
 }
 
@@ -34,15 +34,122 @@
   margin-top: 15px;
 }
 
-#button1 {
+/* #button1 {
   font-size: x-large;
   justify-content: center;
   align-items: center;
-  margin: -80px 10px 10px 1200px;
+  margin: 0px 0px 0px 80px;
+
+  width:97vw ;
+  height: 0%;
   border-radius: 20px;
+} */
+
+/* 
+.item3 { grid-area: main; }
+.book1 { grid-area: book; } */
+
+.grid-container {
+  background-color: #ffffff;
+  padding: 0px 30px 0px 40px;
+
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(255, 255, 255);
+  justify-content: space-between;
 }
-#more {
+
+.paragraph {
+  background-color: #ffffff;
+  padding: 0px 21px 0px 0px;
+
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(255, 255, 255);
+  justify-content: space-between;
+  text-align: justify;
+}
+
+/* #para {
+  font-size: 2vw;
+  font-weight: 700;
+} */
+
+.find1 {
+  text-align: justify;
+  display: flex;
+  flex-direction: row;
+}
+
+.paragraph > div {
+  background-color: #ffffff;
+  width: 50%;
+
+  text-align: left;
+  font-size: 3vw;
+}
+
+/* .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+    font-size: 30px;
+} */
+
+/* Media Query for responsive design */
+/* @media screen and (max-width: 768px) {
+    .grid-container {
+        grid-template-areas:
+            'main main main book book book'
+            'footer footer footer footer footer footer';
+    }
+    .grid-container > div {
+        font-size: 20px;
+    }
+} */
+
+/* .item3 { grid-area: main; }
+.item4 { grid-area: right; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
   font-size: 30px;
+} */
+
+/* 
+#book1 {
+  position: fixed;
+  top: 50%;
+  right: 0;
+  background-color: red; 
+  padding: 20px; 
+}
+
+ */
+
+/* .container-sm{
+  color: aqua;
+  height: 10vw;
+  width: 10vw;
+  grid-area: 10vw;
+  color: aqua;
+
+} */
+
+#more {
+  font-size: 2vw;
   margin: 40px 10px 10px 30px;
   font-weight: 600;
 }
@@ -50,23 +157,17 @@
 #hr {
   border-width: 2px;
   display: block;
-  width: 1415px;
+  width: 93vw;
   color: gray;
-  margin: 10px 20px 10px 20px;
-}
-
-#para {
-  font-size: 60px;
-  margin: 50px 10px 50px 700px;
-  font-weight: 700;
+  margin: 50px 20px 50px 20px;
 }
 
 #hr1 {
   border-width: 2px;
   display: block;
-  width: 1415px;
+  width: 93vw;
   color: gray;
-  margin: 10px 20px 10px 20px;
+  margin: 50px 20px 50px 20px;
 }
 
 #services {
@@ -89,6 +190,10 @@
 }
 
 #pic5 {
+  height: 320px;
+}
+
+#pic3 {
   height: 320px;
 }
 
@@ -139,4 +244,50 @@ ul {
 
 #map1 {
   margin: 50px 10px 80px 10px;
+}
+
+/* @media screen and (max-width: 600px){
+  h1
+  .navbar-nav{
+    font-size: 100px;
+
+  }
+  
+} */
+
+/* 
+#navbar-nav{
+  width: 700vw;
+  
+} */
+
+/* 
+.collapse navbar-collapse{
+display: flex;
+justify-content: center;
+align-items: center;
+} */
+
+@media only screen and (max-width: 576px) {
+  .navbar navbar-expand-lg {
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar navbar-expand-lg {
+    width: 600px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .pic1 {
+    width: 100px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .pic1 {
+    width: 100px;
+  }
 }
