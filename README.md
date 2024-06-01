@@ -1,3 +1,3 @@
 ﻿# ZYER-WEBSITE
 
-https://zyer-website.vercel.app/
+https://zyer-website-j3ea.vercel.app/
